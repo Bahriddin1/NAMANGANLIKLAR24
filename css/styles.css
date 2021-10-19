@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", "Arial", sans-serif;
+  font-style: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+color: #444;
+}
+
+
+/* GLOBAL */
+
+.container{
+
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 120px;
+     padding-right: 120px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+/* HEADER */
+
+.higher-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0;
+  margin-bottom: 30px;
+width: 1400px;
+height: 105px;
+}
+
+.logo-side{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+.site-header-logo{
+  display: inline-block;
+  padding:9px 6px 8px 6px ;
+  border: 0px solid #fff;
+  font-family: "Rubik";
+  font-style: normal;
+  width: 276px;
+height: 45px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+background-color: #fff;
+  color: #7296EE;
+}
+
+.valute{
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+}
+
+.valute-item{
+  font-family: "Rubik";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+
+
+color: #2959CE;
+}
+.span-text{
+color: #000;
+}
+
+.header-services{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.languages{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 39px;
+width: 70px;
+height: 36px;
+background-color: #DCE6FF;
+}
+
+.languages-item{
+  padding: 8px 7px 7px;
+border-radius: 50%;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+text-decoration: none;
+background-color: #fff;
+  color: #000;
+
+}
+
+
+.main-link{
+  padding: 13px 20px;
+border: 1px solid #7296EC;
+border-radius: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+text-decoration: none;
+background-color:#7296EC ;
+
+  color: #FFFFFF;
+}
+
+
+
+
+.sitenav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 1200px;
+  height: 41px;
+
+list-style: none;
+}
+
+.sitenav-link{
+  text-decoration: none;
+  font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #7F7F7F;
+}
+
+.header-line{
+  margin-top: 0;
+  margin-bottom: 40px;
+
+width: 1200px;
+height: 0;
+}
+
+.header-img{
+
+  width: 1200px;
+  height: 128px;
+  border-radius: 8px;
+
+}
