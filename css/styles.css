@@ -222,6 +222,15 @@ body {
 }
 
 
+.offer-link:hover{
+  opacity: 0.8;
+}
+
+.offer-link:active{
+  opacity: 0.6;
+}
+
+
 
 /* NEWS */
 
