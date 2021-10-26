@@ -266,6 +266,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  width: 346px;
   line-height: 26px;
   color: #000000;
   text-decoration: none;
@@ -286,6 +287,7 @@ body {
 
 
 .news-article-img {
+  margin-top: auto;
   margin-top: 0;
   margin-bottom: 15px;
   width: 359px;
@@ -340,4 +342,12 @@ body {
   font-size: 20px;
   line-height: 26px;
 
+}
+
+
+
+/* IN-THE-WORLD */
+
+.world-list-item{
+  display: flex;
 }
