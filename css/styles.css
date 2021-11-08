@@ -264,6 +264,9 @@ img {
   margin-bottom: 10px;
 
 }
+
+
+
 .news-article-link {
   display: inline-block;
 
@@ -277,6 +280,11 @@ img {
   text-decoration: none;
   list-style:none ;
 }
+
+.russian-heading{
+  width: 338px;
+  }
+
 .news-article-text {
   margin-top: 0;
   margin-bottom: 15px;
@@ -336,7 +344,8 @@ img {
   border-radius: 10px;
   width: 1050px;
   height: 100px;
-  background-color: #faae74;
+
+  background-image: url(../img/backgr-img.jpg);
 
 }
 .offer-text {
@@ -498,6 +507,7 @@ img {
 
 
 .link-line{
+  margin-top: 0;
   margin-bottom: 20px;
   width: 359px;
   height: 0px;
@@ -510,15 +520,23 @@ img {
   margin-bottom: 20px;
 }
 
+.second-world-img{
+width: 393px;
+height: 338px;
+}
+
 /* FOOTER/ */
 
+.site-footer{
+  background-color: #7297EF;
+}
 
 
 .site-footer-section {
 
   width: 100%;
   max-width: 1440px;
-  background-color: #7297EF;
+
 }
 
 .footer-main-div{
@@ -615,4 +633,8 @@ margin-right: 221px;
 .social-network-item:not(:last-child) {
   margin-right: 25px;
 
+}
+
+.social-network-link{
+  display: block;
 }
