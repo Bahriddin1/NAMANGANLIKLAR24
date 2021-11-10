@@ -322,12 +322,25 @@ img {
   display: flex;
   align-items: center;
 }
+
+.tesla-article-footer{
+margin-top: 0;
+margin-bottom: 30px;
+}
+
 .article-footer-img {
   margin-right: 10px;
   width: 20px;
   height: 20px;
   border-radius: 5px;
 }
+
+.tesla-footer-img{
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
 .article-footer-time {
 
   font-family: " Rubik", "Arial", sans-serif;
@@ -337,6 +350,11 @@ img {
   line-height: 14px;
   color: #5E5F61;
 
+}
+
+.tesla-footer-time{
+  font-size: 14px;
+  line-height: 17px;
 }
 
 
@@ -387,6 +405,8 @@ img {
 
 
 .fbm-news-heading{
+  margin-top: 0;
+  margin-bottom: 20px;
   font-family: "Rubik", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
