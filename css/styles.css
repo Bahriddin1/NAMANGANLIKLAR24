@@ -248,6 +248,145 @@ img {
 }
 
 
+/* FORM-INPUT  */
+
+.input-list{
+
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.forms-list{
+padding-right: 10px;
+
+}
+
+.form-list{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input{
+
+font-family:"Rubik", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 10px;
+
+background-color: #FFFFFF;
+
+color: #000000;
+
+opacity: 0.5;
+}
+
+.global-name-form {
+margin-right: 10px;
+
+}
+.global-name-form-input {
+width: 343px;
+padding-top: 18px;
+padding-right: 287px;
+padding-bottom: 18px;
+padding-left: 20px;
+
+}
+
+.global-phone-number-form-input {
+
+padding-top: 18px;
+padding-right: 190px;
+padding-bottom: 18px;
+padding-left: 20px;
+width: 343px;
+}
+.global-mail-form {
+  margin-bottom: 10px;
+}
+.global-mail-form-input {
+  padding-top: 18px;
+  padding-right: 526px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  width: 696px;
+}
+.global-text-area {
+padding-top: 18px;
+padding-right: 628px;
+padding-bottom: 143px;
+padding-left: 20px;
+width: 696px;
+}
+
+
+.input-article-list{
+padding: 40px 25px 40px 25px;
+width: 494px;
+border-radius: 10px;
+background: #F6F6F6;
+}
+
+
+.input-article-heading {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family:"Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+ color: #000000;
+
+}
+.input-article-text {
+  margin-top: 0;
+margin-bottom: 20px;
+  font-family:"Rubik", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+
+}
+.input-article-line {
+  margin-top: 0;
+  margin-bottom: 20px;
+  border: 1px solid #D2D2D2;
+}
+
+.send-div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 17px 30px;
+  width: 145px;
+  margin-bottom: 100px;
+
+  background: #7297EF;
+  border-radius: 10px;
+}
+
+.send-button{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-decoration: none;
+  color: #FFFFFF;
+
+
+}
+
+
 /* NEWS */
 
 .news-list{
